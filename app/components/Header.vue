@@ -22,8 +22,10 @@
           tabindex="0"
           class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
         >
+          <li><NuxtLink to="home">Home</NuxtLink></li>
           <li><NuxtLink to="about">About</NuxtLink></li>
           <li><NuxtLink to="enrichment">Enrichment</NuxtLink></li>
+          <li><NuxtLink to="faq">FAQ</NuxtLink></li>
         </ul>
       </div>
       <NuxtLink to="home" class="text-xl">Thrive Academy</NuxtLink>
@@ -32,6 +34,7 @@
       <ul class="menu menu-horizontal px-1">
         <li><NuxtLink to="about">About</NuxtLink></li>
         <li><NuxtLink to="enrichment">Enrichment</NuxtLink></li>
+        <li><NuxtLink to="faq">FAQ</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">
