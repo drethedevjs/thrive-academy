@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import quickFacts from "../data/quickFacts";
+</script>
+
 <template>
   <section id="quick-faqs" class="py-20 lg:px-20 px-10">
     <h2 class="text-center lg:text-8xl text-5xl mb-4 font-extrabold">
@@ -7,31 +11,17 @@
     <hr class="border-angel w-1/2 border-2 lg:mb-20 mb-10 place-self-center" />
 
     <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 md:gap-10">
-      <div class="faq-box ring-navy bg-angel">
-        <Icon name="ic:sharp-calendar-month" size="5em" class="icon" />
-        <h3 class="faq-title">School Year</h3>
-        <p class="faq-text">Sept. 2, 2025 - May 2, 2026</p>
-      </div>
-      <div class="faq-box ring-navy bg-angel">
-        <Icon
-          name="material-symbols:nest-clock-farsight-analog-outline"
-          size="5em"
-          class="icon"
-        />
-        <h3 class="faq-title">Hours</h3>
-        <p class="faq-text">Monday-Thursday</p>
-        <p class="faq-text">9:00 AM - 2:00 PM</p>
-      </div>
-      <div class="faq-box ring-navy bg-angel">
-        <Icon name="solar:chat-round-money-bold" size="5em" class="icon" />
-        <h3 class="faq-title">Tuition</h3>
-        <p class="faq-text">$5,500 per year</p>
-        <small>(quarterly payments available)</small>
-      </div>
-      <div class="faq-box ring-navy bg-angel">
-        <Icon name="material-symbols:location-on" size="5em" class="icon" />
-        <h3 class="faq-title">Location</h3>
-        <p class="faq-text">Brandon/Ruskin, FL</p>
+      <div
+        :key="fact.id"
+        v-for="fact in quickFacts"
+        class="faq-box ring-navy bg-angel"
+      >
+        <Icon :name="fact.icon" size="5em" class="icon text-navy" />
+        <h3 class="faq-title">{{ fact.title }}</h3>
+        <p :key="fact.id" v-for="text in fact.text" class="faq-text">
+          {{ text }}
+        </p>
+        <small v-if="fact.small">{{ fact.small }}</small>
       </div>
     </div>
   </section>
