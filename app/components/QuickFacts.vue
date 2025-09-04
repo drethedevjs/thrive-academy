@@ -8,7 +8,7 @@ import quickFacts from "../data/quickFacts";
       Quick Facts
     </h2>
 
-    <hr class="border-angel w-1/2 border-2 lg:mb-20 mb-10 place-self-center" />
+    <hr class="border-angel w-1/2 border-2 lg:mb-20 mb-10 mx-auto" />
 
     <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 md:gap-10">
       <div
