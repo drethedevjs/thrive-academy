@@ -39,3 +39,11 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+@reference "tailwindcss";
+
+li {
+  @apply text-xl;
+}
+</style>
