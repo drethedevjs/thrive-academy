@@ -3,9 +3,8 @@
     <div class="hero bg-angel min-h-screen">
       <div class="hero-content text-center">
         <div class="max-w-xl">
-          <!-- <NuxtImg src="/thrive-logo.png" alt="Thrive academy logo" /> -->
           <h1 class="text-7xl font-bold text-navy mb-5">Thrive Academy</h1>
-          <p class="text-3xl font-thin">
+          <p class="text-3xl font-thin text-white">
             Confident Learners. Faith-Filled Leaders
           </p>
           <p class="py-6 text-xl">
@@ -13,7 +12,7 @@
             character, and confidence through a Christ-centered, hands-on
             learning experience.
           </p>
-          <p class="font-bold p-3 bg-slate-800 rounded-lg">
+          <p class="font-bold p-3 bg-slate-800 text-white rounded-lg">
             <Icon name="noto:construction" />
             We are under construction.
             <Icon name="noto:construction" />
