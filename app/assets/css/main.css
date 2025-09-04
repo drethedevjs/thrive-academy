@@ -2,9 +2,9 @@
 @plugin "daisyui";
 
 @theme {
-  --color-navy: #000a14;
+  --color-navy: #001429;
   --color-angel: #fabb00;
-  --color-cream: #f4e4c8;
+  --color-cream: #faf2e4;
 }
 
 h1 {
