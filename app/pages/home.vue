@@ -7,7 +7,7 @@
             src="/thrive-logo.png"
             alt="Thrive academy logo"
             width="300"
-            class="place-self-center"
+            class="mx-auto"
           />
           <h1 class="hidden">Thrive Academy</h1>
           <h2 class="text-3xl font-thin text-white">
@@ -18,7 +18,7 @@
             character, and confidence through a Christ-centered, hands-on
             learning experience.
           </p>
-          <div class="lg:w-1/2 w-4/5 place-self-center flex justify-between">
+          <div class="lg:w-1/2 w-4/5 flex justify-between mx-auto">
             <button class="ta-btn-navy">Schedule Tour</button>
             <button class="ta-btn-cream">Enroll Now</button>
           </div>
