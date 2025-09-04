@@ -8,7 +8,7 @@ import faqs from "../data/faq";
     <div
       v-for="faq in faqs"
       :key="faq.id"
-      class="collapse collapse-plus bg-base-100 border border-base-300 mb-4 ring-4 ring-navy"
+      class="collapse collapse-plus bg-base-100 border border-base-300 mb-10 ring-4 ring-navy"
     >
       <input type="radio" name="my-accordion-3" />
       <div class="collapse-title title font-semibold bg-navy text-white">
@@ -18,6 +18,12 @@ import faqs from "../data/faq";
         {{ faq.answer }}
       </div>
     </div>
+
+    <p class="lg:text-3xl text-xl mb-4">
+      Download our Parent Pack for full details, supply lists, and policies.
+    </p>
+
+    <button class="ta-btn-navy">Download</button>
   </main>
 </template>
 

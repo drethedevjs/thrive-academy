@@ -20,9 +20,9 @@ h1 {
 }
 
 .ta-btn-navy {
-  @apply py-3 px-5 rounded-md bg-navy text-cream hover:bg-cream hover:text-navy transition-colors;
+  @apply py-3 px-5 rounded-md bg-navy text-cream hover:bg-cream hover:text-navy transition-colors border-1 border-navy;
 }
 
 .ta-btn-cream {
-  @apply py-3 px-5 rounded-md bg-cream text-navy hover:bg-navy hover:text-cream transition-colors;
+  @apply py-3 px-5 rounded-md bg-cream text-navy hover:bg-navy hover:text-cream transition-colors border-1 border-cream;
 }
