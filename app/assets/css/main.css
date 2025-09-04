@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-navy: #000a14;
+  --color-angel: #fabb00;
+}
+
+.ta-border {
+  @apply border-2 border-red-500;
+}
+
+/* p {
+  @apply text-xl;
+} */
