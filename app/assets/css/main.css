@@ -11,6 +11,10 @@ h1 {
   @apply text-5xl font-bold mb-8;
 }
 
+h2 {
+  @apply lg:text-4xl text-2xl mb-4 font-bold;
+}
+
 .ta-border {
   @apply border-2 border-red-500;
 }

@@ -9,7 +9,7 @@
             class="mx-auto"
           />
           <h1 class="hidden">Thrive Academy</h1>
-          <h2 class="text-3xl font-thin text-white">
+          <h2 class="!text-3xl !font-thin !text-white">
             Confident Learners. Faith-Filled Leaders
           </h2>
           <p class="py-6 text-xl">
