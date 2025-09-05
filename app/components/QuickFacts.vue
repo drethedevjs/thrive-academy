@@ -4,11 +4,7 @@ import quickFacts from "../data/quickFacts";
 
 <template>
   <section id="quick-faqs" class="py-20 lg:px-20 px-10">
-    <h2 class="text-center lg:text-8xl text-5xl mb-4 font-extrabold">
-      Quick Facts
-    </h2>
-
-    <hr class="border-angel w-1/2 border-2 lg:mb-20 mb-10 mx-auto" />
+    <PageHeading>Quick Facts</PageHeading>
 
     <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 md:gap-10">
       <div
