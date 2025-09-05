@@ -30,21 +30,23 @@
           <li><NuxtLink to="about">About</NuxtLink></li>
           <li><NuxtLink to="enrichment">Enrichment</NuxtLink></li>
           <li><NuxtLink to="faq">FAQ</NuxtLink></li>
+          <li><NuxtLink to="contact">Contact</NuxtLink></li>
         </ul>
       </div>
-      <NuxtLink to="home" class="text-xl text-cream w-full"
-        >Thrive Academy</NuxtLink
-      >
+      <NuxtLink to="home" class="text-xl text-cream w-full">
+        Thrive Academy
+      </NuxtLink>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1 text-cream">
         <li><NuxtLink to="about">About</NuxtLink></li>
         <li><NuxtLink to="enrichment">Enrichment</NuxtLink></li>
         <li><NuxtLink to="faq">FAQ</NuxtLink></li>
+        <li><NuxtLink to="contact">Contact</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">
-      <NuxtLink class="ta-btn-cream">Enroll Now</NuxtLink>
+      <NuxtLink to="contact" class="ta-btn-cream">Enroll Now</NuxtLink>
     </div>
   </div>
 </template>

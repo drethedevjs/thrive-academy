@@ -18,8 +18,12 @@
             learning experience.
           </p>
           <div class="lg:w-1/2 w-4/5 flex justify-between mx-auto">
-            <button class="ta-btn-navy">Schedule Tour</button>
-            <button class="ta-btn-cream">Enroll Now</button>
+            <NuxtLink to="contact">
+              <button class="ta-btn-navy">Schedule Tour</button>
+            </NuxtLink>
+            <NuxtLink to="contact">
+              <button class="ta-btn-cream">Enroll Now</button>
+            </NuxtLink>
           </div>
         </div>
       </div>
