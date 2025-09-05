@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-withDefaults(defineProps<{ textClass: string }>(), {
+withDefaults(defineProps<{ textClass?: string }>(), {
   textClass: "text-navy"
 });
 </script>
