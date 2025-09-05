@@ -17,7 +17,7 @@ const quickFacts: QuickFact[] = [
     id: 2,
     icon: "material-symbols:nest-clock-farsight-analog-outline",
     title: "Hours",
-    text: ["Monday-Thursday", "9:00 AM - 2:00 PM"]
+    text: ["Monday-Thursday", "9:00 AM - 1:00 PM"]
   },
   {
     id: 3,
