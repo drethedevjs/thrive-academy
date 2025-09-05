@@ -6,7 +6,6 @@
           <NuxtImg
             src="/thrive-logo.png"
             alt="Thrive academy logo"
-            width="300"
             class="mx-auto"
           />
           <h1 class="hidden">Thrive Academy</h1>
@@ -25,6 +24,9 @@
         </div>
       </div>
     </div>
+
     <QuickFacts />
+
+    <Testimonials />
   </main>
 </template>
