@@ -5,6 +5,15 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+  app: {
+    head: {
+      title: "Thrive Academy", // default fallback title
+      htmlAttrs: {
+        lang: "en"
+      },
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    }
+  },
   vite: {
     plugins: [tailwindcss()]
   },

@@ -6,7 +6,7 @@
           <NuxtImg
             src="/thrive-logo.png"
             alt="Thrive academy logo"
-            class="mx-auto"
+            class="mx-auto mb-10"
           />
           <h1 class="hidden">Thrive Academy</h1>
           <h2 class="!text-3xl !font-thin !text-white">
