@@ -16,11 +16,13 @@
             character, and confidence through a Christ-centered, hands-on
             learning experience.
           </p>
-          <p class="font-bold p-3 bg-slate-800 text-white rounded-lg">
+          <p class="font-bold p-3 bg-navy text-white rounded-lg mb-10">
             <Icon name="noto:construction" />
             We are under construction.
             <Icon name="noto:construction" />
           </p>
+
+          <a href="tel:8139708680" class="ta-btn-navy">Contact Us</a>
         </div>
       </div>
     </div>
