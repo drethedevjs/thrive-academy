@@ -24,7 +24,7 @@
         </div>
         <ul
           tabindex="0"
-          class="menu menu-lg dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow-xl ring-navy ring-1 bg-angel"
+          class="menu menu-lg dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow-xl ring-navy ring-1 bg-angel dark:text-navy"
         >
           <li><NuxtLink to="home">Home</NuxtLink></li>
           <li><NuxtLink to="about">About</NuxtLink></li>

@@ -13,11 +13,15 @@ import quickFacts from "../data/quickFacts";
         class="faq-box ring-navy bg-angel"
       >
         <Icon :name="fact.icon" size="5em" class="icon text-navy" />
-        <h3 class="faq-title">{{ fact.title }}</h3>
-        <p :key="fact.id" v-for="text in fact.text" class="faq-text">
+        <h3 class="faq-title dark:text-navy">{{ fact.title }}</h3>
+        <p
+          :key="fact.id"
+          v-for="text in fact.text"
+          class="faq-text dark:text-navy"
+        >
           {{ text }}
         </p>
-        <small v-if="fact.small">{{ fact.small }}</small>
+        <small v-if="fact.small" class="dark:text-navy">{{ fact.small }}</small>
       </div>
     </div>
   </section>
