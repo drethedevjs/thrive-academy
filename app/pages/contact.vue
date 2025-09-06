@@ -57,11 +57,11 @@
 @reference "tailwindcss";
 
 .contact {
-  @apply lg:text-4xl md:text-2xl;
+  @apply lg:text-4xl text-2xl dark:text-white;
 }
 
 .icon {
-  @apply mb-5;
+  @apply mb-5 dark:text-white;
 }
 
 ul {
