@@ -1,6 +1,6 @@
 <template>
   <main class="ta-container">
-    <h1 class="text-navy">About Thrive</h1>
+    <PageName>About Thrive</PageName>
     <p class="lg:text-3xl text-xl">
       At Thrive Micro-School, we believe every child is created with a unique
       purpose and the ability to learn with joy. Our faith-based program

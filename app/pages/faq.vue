@@ -3,7 +3,7 @@ import faqs from "../data/faq";
 </script>
 <template>
   <main class="ta-container">
-    <h1>FAQ</h1>
+    <PageName>FAQ</PageName>
 
     <div
       v-for="faq in faqs"

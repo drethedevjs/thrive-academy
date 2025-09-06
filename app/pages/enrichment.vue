@@ -1,6 +1,7 @@
 <template>
   <main class="ta-container">
-    <h1>Enrichment</h1>
+    <PageName>Enrichment</PageName>
+
     <p class="lg:text-3xl text-xl mb-4">
       Every week, Thrive students participate in engaging enrichment activities:
     </p>

@@ -1,6 +1,6 @@
 <template>
   <section class="ta-container">
-    <h1>Contact</h1>
+    <PageName>Contact</PageName>
 
     <h2>Looking to Enroll?</h2>
     <ul>
